@@ -1,0 +1,114 @@
+.sesion1{
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    position:relative;
+    margin-top:-50px;
+    padding-top:50px;
+    height:800px;
+   
+
+}
+.calculadora{
+    background:#000;
+    margin:auto;
+    width:310px;
+    height:600px;
+    margin-top:50px;
+    padding-top:70px;
+    border-radius:20px;
+
+    box-shadow: 38px 25px 13px -1px rgba(0,0,0,0.90);
+-webkit-box-shadow: 38px 25px 13px -1px rgba(0,0,0,0.90);
+-moz-box-shadow: 38px 25px 13px -1px rgba(0,0,0,0.90);
+}
+.botones{
+    margin-top:50px;
+    height:400px;
+}
+#pantalla{
+    margin-left:5px;
+    padding:20px 30px;
+    font-size:45px;
+    
+}
+
+table tr td > input{
+    width:60px;
+    height:60px;
+   
+}
+#zero{
+    width:140px;
+    border-radius:5rem;
+}
+#ac, #mm, #porciento, #dividir, #seven, #eight, #nine, #multiplicar, #four, #five, #six, #restar, #one, #two, #three, #mas, #zero, #point, #igual{
+    border-radius:5rem;
+
+}
+#restar{
+    opacity:.8;
+}
+
+
+.caja1{
+    width:300px;
+    height:300px;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(15px);
+    position:absolute;
+    top:130px;
+    left:100px;
+    animation-name:cajas;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:linear;
+}
+.caja2{
+    width:300px;
+    height:300px;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(15px);
+    position:absolute;
+    top:300px;
+    left:200px;
+    animation-name:cajas;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in;
+}
+.caja3{
+    width:300px;
+    height:300px;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(15px);
+    position:absolute;
+    top:350px;
+    right:150px;
+    animation-name:cajas;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in;
+}
+.caja4{
+    width:300px;
+    height:300px;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(15px);
+    position:absolute;
+    top:470px;
+    right:40px;
+    animation-name:cajas;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:linear;
+
+}
+
+@keyframes cajas{
+    0%{
+        transform:translatey(-9px);
+    }
+}
